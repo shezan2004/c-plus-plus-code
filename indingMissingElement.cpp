@@ -4,7 +4,7 @@ public:
         int min_val = nums[0];
         int max_val = nums[0];
         
-        // Find the minimum and maximum elements in the array
+        // Finding the minimum and maximum elements in the array
         for (int num : nums) {
             min_val = min(min_val, num);
             max_val = max(max_val, num);
