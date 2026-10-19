@@ -18,7 +18,7 @@ public:
         res = res * solve(right) % MOD;
         return res;
     }
-
+    // Number of ways to reorder array to get same BST
     int numOfWays(vector<int>& nums) {
         int n = nums.size();
         C.assign(n + 1, vector<long long>(n + 1, 0));
