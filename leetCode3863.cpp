@@ -14,6 +14,6 @@ public:
         int cmx = count(s.begin(), s.end(), mx);
         if (s[0] == mx && s[n - 1] == mn && cmx == 1 && cmn == 1) return 3;
 
-        return 2;
+        return 2 ;
     }
 };
